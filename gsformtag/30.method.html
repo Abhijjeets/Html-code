@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    It specifies how to send the form data to a web server
+    <ul>
+        <li>Get(default)</li>
+        <form action="example.php" accept-charset="UTF-8"  method="get">
+            Name:       <input type="text" name="name"><br><br>
+            Password:   <input type="password" name="password"><br><br>
+                        <input type="submit" value="Click" name="sub">
+                        <input type="reset">
+        </form>
+        <li>Post</li>
+        <form action="example.php" accept-charset="UTF-8"  method="post">
+            Name:       <input type="text" name="name"><br><br>
+            Password:   <input type="password" name="password"><br><br>
+                        <input type="submit" value="Click" name="sub">
+                        <input type="reset">
+        </form>
+    </ul>
+</body>
+</html>
